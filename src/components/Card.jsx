@@ -1,4 +1,4 @@
-function Caard(){
+function Card(){
     // return{} Esto es retorno de código js
     return( /* Esto es un retorno de HTML */
        <article>
@@ -9,4 +9,4 @@ function Caard(){
        </article> 
     )
 }
-export default Caard
+export default Card
