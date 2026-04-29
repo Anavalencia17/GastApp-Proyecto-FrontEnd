@@ -134,3 +134,10 @@ Keimer valoyes            	@Valoyes14
 **Quiero** ver datos desde una API  
 **Para** visualizar información dinámica  
 ✅ Estado: Completada 
+
+
+### HU11: Manejo de datos (DTOs) 
+**Como** desarrollador 
+**Quiero** estructurar los datos recibidos 
+**Para** facilitar su uso en la interfaz 
+✅ Estado: Completada
