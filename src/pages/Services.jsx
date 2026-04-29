@@ -1,20 +1,22 @@
-import Navbar from "../components/Navbar";
-import Card from "../components/Card";
-import Footer from "../components/Footer";
+import { useEffect, useState } from "react";
+import { getServices } from "../services/api";
+
 function Services() {
+  const [services, setServices] = useState([]);
+
+  useEffect(() => {
+    getServices().then(data => {
+      console.log(data); // 👈 ESTO ES CLAVE
+      setServices(data);
+    });
+  }, []);
+
   return (
-    <main>
-      <Navbar />
-      <section className="container">
-        <h1>Servicios</h1>
-        <section>
-          <Card />
-          <Card />
-          <Card />
-        </section>
-        <Footer />
-      </section>
-    </main>
+    <div>
+      {services.map(s => (
+        <p key={s.id}>{s.title}</p>
+      ))}
+    </div>
   );
 }
-export default Services
+export default Services;

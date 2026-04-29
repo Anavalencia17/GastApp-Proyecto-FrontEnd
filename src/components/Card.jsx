@@ -1,12 +1,10 @@
-function Card(){
-    // return{} Esto es retorno de código js
-    return( /* Esto es un retorno de HTML */
-       <article>
-            <section></section>
-            <section>
-                <h3>Titulo</h3>
-            </section>
-       </article> 
-    )
+function Card({ title, description }) {
+  return (
+    <div className="card">
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </div>
+  );
 }
-export default Card
+
+export default Card;

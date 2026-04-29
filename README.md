@@ -118,7 +118,7 @@ http://localhost:5173
 <details> <summary>👥 Autores</summary>
 Nombre	                    Usuario GitHub
 Ana Maria Piedrahita     	@Anavalencia17
-Samuel Martine           	@Samuel200730
+Samuel Martinez           	@Samuel200730
 Keimer valoyes            	@Valoyes14
 
 </details>
@@ -128,3 +128,9 @@ Keimer valoyes            	@Valoyes14
 **Quiero** organizar el proyecto en componentes y páginas  
 **Para** mantener un código limpio y escalable  
 ✅ Estado: Completada  
+
+### HU6: Consumo de servicios
+**Como** usuario  
+**Quiero** ver datos desde una API  
+**Para** visualizar información dinámica  
+✅ Estado: Completada 
