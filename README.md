@@ -122,3 +122,9 @@ Samuel Martine           	@Samuel200730
 Keimer valoyes            	@Valoyes14
 
 </details>
+
+### HU1: Estructura del proyecto
+**Como** desarrollador  
+**Quiero** organizar el proyecto en componentes y páginas  
+**Para** mantener un código limpio y escalable  
+✅ Estado: Completada  
